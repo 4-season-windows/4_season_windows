@@ -1,0 +1,64 @@
+
+:root {
+    --primary: #ffffff;
+    --secondary: #FF9E18;
+    --tercerary: #ffffff;
+    --text_dark: #303030;
+    --text_light: #f3f3f3;
+
+
+    --other: #7C7EAA;
+    --other2: #6ABF4B;
+    --other3: #FF9E18;
+    --other4: #0097CE;
+}
+
+html {
+    /* overflow: auto; */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE and Edge */
+}
+
+::-webkit-scrollbar {
+    display: none; /* Chrome, Safari */
+}
+
+body {
+    font-family: proxima-nova;
+    font-weight: 100;
+    font-style: normal;
+
+    display: inline-block;
+    margin: 0;
+    width: 100%;
+    color: #313131;
+
+    margin: 0;
+    background-color: var(--primary);
+    color: var(--text_dark);
+}
+
+.spaced_title {
+    letter-spacing: 3px;
+
+}
+
+
+.title_back {
+    background-color: var(--secondary);
+    /* color: var(--text_light); */
+
+}
+
+h1 {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 1rem;
+    border-radius: 5px;
+    letter-spacing: 3px;
+    
+}
+
+.section {
+    margin: 3rem;
+}
