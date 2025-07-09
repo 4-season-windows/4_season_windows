@@ -6,14 +6,11 @@ class Testimonials extends HTMLElement {
         this.attachShadow({ mode: 'open' });
     }
     async connectedCallback() {
-        const response = await fetch('components/main.css');
-        const styles = await response.text();
-        console.log("styles", styles);
 
         this.shadowRoot.innerHTML = `
             <style>
 
-                ${styles}
+                @import url('components/main.css');
 
                 #testimonial {
                     display: flex;
