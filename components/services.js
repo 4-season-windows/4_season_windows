@@ -53,18 +53,11 @@ class Services extends HTMLElement {
                     
                 </div>
                 <br>
-                <p>We provide the following services with the utmost quality and professionalism:</p>
-                <ul>
-                    <li>Broken Windows</li>
-                    <li>Showers</li>
-                    <li>Glass Storefronts</li>
-                    <li>Mirrors</li>
-                </ul>
+                <p>
+                    Call us or <a id="forms_link" href="https://docs.google.com/forms/d/e/1FAIpQLScezCJd3OOmwQR2TQPbMwIYf0fpTVnUrHDVVY7vZzsazQmitg/viewform?usp=dialog">fill out a request</a> to get a free quote! We'd love to meet you and see how we can help
+                </p>
 
-                <p>Call us to get a free quote! We'd love to meet you and see how we can help</p>
-
-                <br>
-                <p>Or fill out a request for a <a id="forms_link" href="https://docs.google.com/forms/d/e/1FAIpQLScezCJd3OOmwQR2TQPbMwIYf0fpTVnUrHDVVY7vZzsazQmitg/viewform?usp=dialog">quote</a></p>
+                <p></p>
             </div>
         `;
 
