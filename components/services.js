@@ -25,7 +25,8 @@ class Services extends HTMLElement {
 
                 .services_img {
                     width: 100%; /* Take full width of the grid cell */
-                    height: auto; /* Maintain aspect ratio */
+                    height: 20rem; /* Maintain aspect ratio */
+                    object-fit: cover;
                 }
 
             </style>
@@ -34,17 +35,22 @@ class Services extends HTMLElement {
                 <h1 class="title_back">Services</h1>
                 <div id="services_section">
                     <div class="service">
-                        <img class="services_img" src="assets/default_image.jpg">
-                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        <img class="services_img" src="assets/highlights/324A5305.jpg">
+                        <h2>Window Installation & Repair</h2>
+                        <p>Windows are more than glass and frames — they're how you see and experience the world from your home. Whether you need a brand-new installation or a quick repair, we make sure every window is fitted with care, precision, and a promise to last.</p>
                     </div>
                     <div class="service">
-                        <img class="services_img" src="assets/default_image.jpg">
-                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        <img class="services_img" src="assets/highlights/324A5151.jpg">
+                        <h2>Shower Door & Glass Replacement </h2>
+                        <p>Your bathroom should feel like your own personal retreat. From elegant frameless shower doors to crystal-clear glass replacements, we bring beauty and durability together in every piece we install.</p>
                     </div>
                     <div class="service">
-                        <img class="services_img" src="assets/default_image.jpg">
-                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                        <img class="services_img" src="assets/highlights/324A5178.jpg">
+                        <h2>Screen Window Installation & Repair</h2>
+                        <p>Fresh air is one of life's simple pleasures. Our custom-fit screen windows let the breeze in while keeping pests out — installed or repaired with the same attention to detail we give every project.</p>
                     </div>
+
+                    
                 </div>
                 <br>
                 <p>We provide the following services with the utmost quality and professionalism:</p>
@@ -61,6 +67,13 @@ class Services extends HTMLElement {
                 <p>Or fill out a request for a <a id="forms_link" href="https://docs.google.com/forms/d/e/1FAIpQLScezCJd3OOmwQR2TQPbMwIYf0fpTVnUrHDVVY7vZzsazQmitg/viewform?usp=dialog">quote</a></p>
             </div>
         `;
+
+        // assets/highlights/324A5323.jpg
+        // assets/highlights/229828768721894835.jpg.jpeg
+        // assets/highlights/324A5305.jpg
+        // assets/highlights/324A5178.jpg
+        // assets/highlights/324A5166.jpg
+        // assets/highlights/324A5151.jpg
     }
 }
 
