@@ -27,21 +27,28 @@
             margin: 0;
         }
 
+        #one_liner_container {
+            width: 100%;
+        }
+
         #one_liner {
-            background-color: var(--secondary);
-            margin: 2rem;
-            border-radius: 3px;
+            margin: 3rem;
+            margin-bottom: 8rem;
+            margin-top: 5rem;
             height: 4rem;
+            width: auto;
 
             display: flex;
             justify-content: center;
             align-items: center;
-
         }
 
         #one_liner p {
-            margin: 2rem;
-            font-size: 1.5rem;
+            font-size: 2rem;
+            padding: 1rem;
+            border-radius: 3px;
+            background-color: var(--secondary);
+
         }
 
 
@@ -73,7 +80,6 @@
         }
 
         .contact_value {
-            margin-left: 1rem;
             margin-bottom: 1rem;
             text-decoration-color: var(--text_dark);
             color: var(--text_dark);
@@ -86,6 +92,15 @@
             border-radius: 2px;
             padding: .2rem;
 
+        }
+
+        /* CSS rules for all devices that are not desktops (phones + tablets) */
+        @media (max-width: 1024px) {
+             #splash_screen_img {
+                width: auto;
+                height: 50vh;
+                left: -1rem;
+            }
         }
     </style>
 </head>
@@ -109,9 +124,10 @@
 
     </div>
     
-    </div>
+    </div id="one_liner_container">
         <div id="one_liner">
-        <p>What started as a dream is now our way of serving you.</p>
+            <p>Expert service, honest pricing, lasting results.</p>
+        </div>
     </div>
 
 
@@ -167,7 +183,12 @@
 
         <div class="contact_item">
             <strong class="contact_value">Email:</strong>
-            <a class="contact_value" href="mailto:info@4seasonswindow.com?subject=Quote%20Request&amp;body=Hi%2C%20I'd%20like%20to%20request%20a%20quote%20for...">info@4seasonswindow.com</a>
+            <a class="contact_value" href="mailto:4seasonswindows2022@gmail.com?subject=Quote%20Request&amp;body=Hi%2C%20I'd%20like%20to%20request%20a%20quote%20for...">4seasonswindows2022@gmail.com</a>
+        </div>
+
+        <div class="contact_item">
+            <strong class="contact_value">Address:</strong>
+            <p class="contact_value">1704 S 800 W #7, Logan, UT 84321</p>
         </div>
     </div>
 

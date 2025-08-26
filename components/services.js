@@ -29,6 +29,18 @@ class Services extends HTMLElement {
                     object-fit: cover;
                 }
 
+
+                /* CSS rules for all devices that are not desktops (phones + tablets) */
+                @media (max-width: 1024px) {
+
+                    #services_section {
+                        display: flex;
+                        flex-direction: column;
+                        width: 100%;
+                    }
+
+                }
+
             </style>
             <div class="section">
 
@@ -53,7 +65,7 @@ class Services extends HTMLElement {
                     
                 </div>
                 <br>
-                <p>
+                <p class="service">
                     Call us or <a id="forms_link" href="https://docs.google.com/forms/d/e/1FAIpQLScezCJd3OOmwQR2TQPbMwIYf0fpTVnUrHDVVY7vZzsazQmitg/viewform?usp=dialog">fill out a request</a> to get a free quote! We'd love to meet you and see how we can help
                 </p>
 
