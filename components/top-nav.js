@@ -21,7 +21,7 @@ class TopNav extends HTMLElement {
                 position: fixed;
                 background-color: var(--tercerary);
                 color: var(--text_dark);
-                width: 100%;
+                width: 100vw;
 
                 box-shadow: 4px 4px 10px rgba(150, 150, 150, 0.3);
             }
@@ -47,7 +47,7 @@ class TopNav extends HTMLElement {
             }
 
             #top_logo {
-                margin: 1rem;
+                margin: 1rem 1rem 1rem 1rem;
                 width: 8rem;
                 height: 8rem;
             }
@@ -93,14 +93,18 @@ class TopNav extends HTMLElement {
 
                 #hamburger {
                     display: flex;
-                    justify-content: center;
+                    justify-content: end;
                     align-items: center;
+                }
+
+                #hamburger_svg {
+                    margin-right: 2rem;
                 }
 
 
                 header {
                     grid-template-columns: 1fr 1fr;
-                    
+                    width: 100vw;
                 }
 
                 nav {
