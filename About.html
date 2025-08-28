@@ -42,7 +42,6 @@
         #the_team {
             display: flex;
             justify-content: center;
-            height: 70vh;
             overflow: hidden;
         }
 
@@ -56,8 +55,14 @@
         /* CSS rules for all devices that are not desktops (phones + tablets) */
         @media (max-width: 1024px) {
             #gallery {
-                display: grid;
-                grid-template-columns: 1fr 1fr 1fr;
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+            }
+
+            #the_team_img {
+                width: 100%;
+                height: 40vh;
             }
 
         }
